@@ -1,0 +1,442 @@
+
+.body {
+    background-color: #1A1922;
+}
+
+
+/*-----Header----*/
+
+.page_header {
+display: flex;
+justify-content: space-between;
+}
+
+.page_navigation {
+    margin: 1px;
+    padding: 3pc;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 15,625rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+
+    .navigation_element {
+        text-decoration: none;
+        color: white;
+        flex-direction: space-between;
+        font-size: 150%;
+    }
+
+    .logo_billede {
+        padding-left: 1%;
+        width: 8%;
+        height: 8%;
+    }
+
+
+/*------Forside content----*/
+
+.Overskrift {
+    line-height: 5,5;
+    font-size: 650%;
+    color: #6147b2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3%;
+    
+    
+}
+
+
+.Overskrift1 {
+    line-height: 5,5;
+    font-size: 650%;
+    color: rgb(226, 55, 55);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3%;
+    
+    
+}
+
+
+.front_billede {
+    width: 20%;
+    height: 10%;
+    padding-top: 1pc;
+    padding-right: 5%;
+}
+
+.top_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Magasin {
+    font-size:170%;
+    color: #5252cc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.brødtekst {
+    padding-left: 2%;
+    color: white;
+    line-height: 2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+/*---Magasin overblik---*/
+
+.esport_billede {
+    padding-left: 2%;
+    padding-top: 7%;
+}
+
+.Esport_magasin {
+    padding-top: 11%;
+    padding-left: 1%;
+    color: white;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.esport_content {
+    display: flex;
+    
+}
+
+.udstyr_billede {
+    padding-left: 2%;
+    padding-top: 3%;
+}
+
+.udstyr_magasin {
+    padding-top: 7%;
+    padding-left: 1%;
+    color: white;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.udstyr_content {
+    display: flex;
+}
+
+.spil_billede {
+    height: 22%;
+    width: 17%;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.spil_magasin {
+    padding-top: 6%;
+    padding-left: 1%;
+    color: white;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.spil_content {
+    display: flex;
+}
+
+/*---------footer--------*/
+
+.information {
+    font-size: smaller;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook_billede {
+    height: 6%;
+    width: 6%;
+}
+
+/*---------E-sport side----------*/
+
+/*------Esport fænomen----*/
+
+.Om_Esport {
+    color: white;
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.esport_overskrift {
+    color: #5252cc;
+    padding-top: 3%;
+    padding-left: 2%;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.brødtekst2 {
+    color: white;
+    padding-left: 2%;
+    padding-right: 40%;
+    line-height: 170%;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.første_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.andet_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gammel_computer {
+   padding-right: 3%;
+   width: 13%;
+   padding-bottom: 3%;
+}
+
+
+.fans {
+    padding-right: 3%;
+    
+}
+
+/*-----------Danske pros----*/
+
+.esport_overskrift2 {
+    
+    color: white;
+    padding-top: 10%;
+    padding-left: 2%;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.esport_overskrift3 {
+    
+    color: #ff5959;
+    padding-top: 10%;
+    padding-left: 2%;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.brødtekst3 {
+    color: white;
+    padding-left: 2%;
+    padding-right: 40%;
+    line-height: 170%;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+.danmark {
+    width: 3%;
+    height: 3%;
+}
+
+.spiller_tekst1 {
+    display: flex;
+    padding-left: 2%;
+    
+}
+.spiller_tekst2 {
+    display: flex;
+    padding-right: 16%;
+    
+}
+
+.spiller_tekst {
+    padding-top: 25%;
+    padding-left: 10%;
+    font-size: smaller;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.spiller_første {
+    padding-top: 3%;
+    font-size: smaller;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.spiller1 {
+    padding-right: 10%;
+    padding-top: 8%;
+}
+
+.spiller2 {
+    padding-right: 10%;
+    padding-top: 8%;
+}
+
+.spiller_billeder {
+    width: 350px;
+    height: 400px;
+    float: left;
+}
+
+
+.spiller_første2 {
+    padding-top: 10%;
+    font-size: smaller;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.spiller3 {
+    padding-right: 5%;
+    padding-top: 8%;
+}
+
+.spiller4 {
+    padding-right: 9%;
+    padding-top: 8%;
+}
+
+.spiller_tekst3 {
+    display: flex;
+    padding-left: 2%;
+    
+}
+.spiller_tekst4 {
+    display: flex;
+    padding-right: 13%;
+    
+}
+
+
+.Twitch_kanaler {
+    text-decoration: none;
+    color: #672ad8;
+}
+
+/*-----Gaming udstyr----*/
+
+.udstyr_content1 {
+    display: flex;
+}
+
+.refurbished_computer {
+    width: 30%;
+    height: 30%;
+    padding-left: 2%;
+}
+
+.computer_tekst {
+    display: flex;
+}
+
+
+.Shark {
+    width: 30%;
+    height: 30%;
+    padding-left: 2%;
+}
+
+.computer_tekst2 {
+    display: flex;
+}
+
+
+
+
+/*-----Ugens onlinespil----*/
+
+
+.Lol {
+  width: 50%;
+  padding-left: 50%;
+}
+
+.Spil_content1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.brødtekst4 {
+    padding-left: 2%;
+    color: white;
+    line-height: 190%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+.twitch {
+    padding-right: 5%;
+    
+}
+
+.Spil_content2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.gaver {
+    width: 35%;
+    height: 35%;
+    padding-left: 3%;
+}
+
+.Spil_content3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moba {
+    text-decoration: none;
+    color: #672ad8;
+}
+
+
+
+    @media only screen and (min-width: 37.5rem) {
+
+        .page_header {
+            flex-direction: row;
+           }
+      
+        
+    }
+    
+
+
+    @media only screen and (min-width: 53.438rem) {
+        
+        .page_navigation {
+            justify-content: flex-end;
+        }
+       
+    .navigation_element {
+        margin-left: 3pc;
+    }
+    
+    }
+    
+
+
+
+
